@@ -1,0 +1,77 @@
+
+.header {
+    text-align: center;
+   
+    padding: 50px;
+    background-color: black;
+    
+  }
+  
+  .middle{
+    padding: 10px;
+    background-color: green;
+  }
+
+  .header h1 {
+    font-size: 32px;
+    color:white;
+  }
+  
+  .header p {
+    color: white;
+  }
+  
+  .addTaskForm {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 30px; 
+    background-color: whitesmoke;
+   
+  }
+  
+  .addTaskForm input, .addTaskForm select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  
+  }
+  
+  .addTaskForm button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .addTaskForm button:hover {
+    background-color: #45a049;
+  }
+  
+  .taskContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .taskCardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskActions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .taskActions button:hover {
+    background-color: #e53935;
+  }
+  

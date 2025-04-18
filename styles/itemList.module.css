@@ -1,0 +1,97 @@
+
+  /* Header section */
+  .header {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    color: white;
+  }
+  
+  .header p {
+    color: white;
+  }
+  
+  /* Add/Edit Item Form */
+  .addForm {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: whitesmoke;
+  }
+  
+  .addForm input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .addForm button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .addForm button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Filter Checkbox */
+  .filterBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+  }
+  
+  /* List of Items */
+  .itemContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .itemCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .itemCard h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .itemCard p {
+    margin: 0;
+  }
+  
+  /* Edit/Delete Buttons */
+  .actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover {
+    background-color: #e53935;
+  }
+  

@@ -1,0 +1,116 @@
+
+
+/* Header Styles */
+.header {
+    background:black; /* <- path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+    
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: white;
+  }
+  .passage {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  .topic{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+  }
+  .taskSection{
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: whitesmoke;
+    color: #333;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-list li h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .task-list li p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .addTaskForm input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: #fafafa;
+  
+  }
+  .linkContainer{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: auto;
+    color: red;
+  }
+  .linkContainer p{
+  color: white;
+  }
+  .addTask{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  .deleteButton{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+    
+  }
